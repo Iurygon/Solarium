@@ -6,4 +6,21 @@
 
 body{
     font-family: 'Libre Baskerville', sans-serif;
+    width: 100%;
+}
+
+.header__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--azul__escuro);
+    padding: 1.5em;
+    box-shadow: 0px 2px 5px var(--azul__escuro);
+}
+
+.header__link{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 20px;
 }
