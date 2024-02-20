@@ -1,12 +1,14 @@
 :root{
     --azul__escuro: #48487f;
     --branco: #ffffff;
-    --preto:  #000000;
+    --preto: #000000;
+    --cinza: #afafaf;
 }
 
 body{
     font-family: 'Libre Baskerville', sans-serif;
     width: 100%;
+    background-color: var(--branco);
 }
 
 .header__container{
@@ -23,4 +25,53 @@ body{
     text-decoration: none;
     color: var(--branco);
     font-size: 20px;
+}
+
+.main__container{
+    margin: 2em auto 0;
+    width: 90%;
+    text-align: center;
+}
+
+.main__image{
+    width: 100%;
+    min-width: 250px;
+    max-width: 500px;
+}
+
+.info__container{
+    margin: 1em 0;
+    padding: 1.5em;
+    background-color: var(--cinza);
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.info__titulo{
+    font-size: 1.25em;
+    color: var(--azul__escuro);
+}
+
+.info__texto{
+    font-size: 1em;
+    color: var(--preto);
+    margin: 1em 0;
+}
+
+.info__contato{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info__contato_link{
+    text-decoration: none;
+    color: var(--azul__escuro);
+    font-size: 1.15em;
+    margin: 0.5em 0;
+}
+
+.galery__image{
+    width: 100%;
+    min-width: 250px;
+    max-width: 500px;
 }
