@@ -125,3 +125,18 @@ body{
 }
 
 }
+
+@media (min-width: 1000px){
+
+.content__galery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.galery__image{
+
+}
+    
+}
