@@ -32,6 +32,11 @@ body{
     padding: 0 1em;
 }
 
+.header__link:hover{
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
 
 /*MAIN*/
 
@@ -76,6 +81,12 @@ body{
     color: var(--azul__escuro);
     font-size: 1.15em;
     margin: 0.5em 0;
+}
+
+.info__contato_link:hover{
+    font-size: 1.5em;
+    transition: 0.3s;
+    font-weight: bold;
 }
 
 .content__galery{
